@@ -12,7 +12,7 @@ body{
     color: white;
     font-size: 16px;
     text-decoration: none;
-    background-image: linear-gradient(teal, orange);
+    background-image: linear-gradient(#e66465, #9198e5);
     padding: 10px 15px;
     border: none;
     border-radius: 35px;   
@@ -39,7 +39,7 @@ body{
     padding-bottom: -5px;
 }
 .top-content h1 span{
-    color: orangered;
+    color: #e66465;
 }
 p{
     color: rgba(34, 34, 34, 0.933);
@@ -81,6 +81,7 @@ section .about-items{
     width: 40%;
     margin: auto;
     padding-left: 50px;
+    padding-bottom: 45px;
 }
 .about-me h2{
     color: darkslategrey;
@@ -177,6 +178,7 @@ section.counting div{
 section.counting h1{
     font-size: 48px;
     text-align: center;
+    color: darkslategrey;
 }
 section.counting p{
     font-size: 16px;
