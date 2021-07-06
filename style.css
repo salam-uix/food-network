@@ -4,7 +4,6 @@ body{
 }
 .flex{
     display: flex;
-    width: 90%;
 }
 .half-width{
     width: 50%;
@@ -88,33 +87,74 @@ section .about-items{
 }
 
 /*-------Recipies section------*/
+
 .recipes-section{
     width: 100%;
-    text-align: center;
+    margin: auto;
+   
 }
 .recipes-section h2{
     color: darkslategrey;
+    text-align: center;
+    font-size: 36px;
 }
-.recipes-section p{
-    width: 50%;
+.recipes-section p.heading-description{
+    color: rgba(34, 34, 34, 0.933);
+    font-size: 18px;
+    text-align: center;
+    width: 60%;
     margin: auto;
-    padding-bottom: 25px;
-    font-size: 16px;
 }
 .recipes-section .recipies-container{
+    width: 90%;
     margin: auto;
-    box-shadow: darkslategrey;
 }
-.recipes-section .size{
-    width: 30%;
-    
+.recipes-section .recipies-container .size{
+    height: 528px;
+    width: 377px; 
 }
-.recipes-section .size h4{
+.recipes-section .recipies-container .recipie-one{
+    background-color: white;
+    justify-content: center;
+    width: 347px;
+    height: 516px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(117, 117, 117, 0.363);
+}
+.recipes-section .recipies-container .recipie-two{
+    background-color: white;
+    justify-content: center;
+    width: 347px;
+    height: 516px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(117, 117, 117, 0.363);
+}
+.recipes-section .recipies-container .recipie-three{
+    background-color: white;
+    justify-content: center;
+    width: 347px;
+    height: 516px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(117, 117, 117, 0.363);
+}
+.recipes-section .recipies-container .size img{
+    height: 246px;
+    width: 327px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.recipes-section .recipies-container .size h4{
+    font-size: 28px;
     text-align: left;
+    padding-left: 10px;
 }
-.recipes-section .size{
+.recipes-section .recipies-container .size p{
+    font-size: 18px;
     text-align: left;
-}
-.recipes-section img{
-    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -15px;
 }
