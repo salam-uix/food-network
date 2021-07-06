@@ -185,7 +185,7 @@ section.counting p{
     padding-bottom: 15px;
 }
 
-
+/*-------Review section------*/
 .review-section{
     display: flex;
     width: 100%;
@@ -193,6 +193,7 @@ section.counting p{
     margin: auto;
     justify-content: center;
     align-items: center;
+    background-image: url(./images/shapes/Frame\ 57.jpg);
 }
 .review-section .review-img{
     width: 15%;
@@ -202,6 +203,37 @@ section.counting p{
     width: 30%;
 }
 
+/*-------Feedback section------*/
+.get-in-touch{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    padding: 100px 0;
+}
+.get-in-touch h1{
+    color: darkslategrey;
+    font-size: 36px;
+    text-align: center;
+}
+.get-in-touch hr{
+    width: 150px;
+    margin-top: 2px;
+}
+.get-in-touch p{
+    font-size: 16px;
+    text-align: center;
+}
+.get-in-touch textarea{
+    width: 450px;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    border: 1px solid rgba(47, 79, 79, 0.384);
+}
+.get-in-touch a{
+    
+    margin-left: 30%;
+    
+}
 
 /*-------Footer section------*/
 footer{
