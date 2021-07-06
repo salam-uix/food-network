@@ -158,3 +158,26 @@ section .about-items{
     padding-right: 10px;
     margin-top: -15px;
 }
+
+
+/*-------Counting section------*/
+
+
+section .count-container{
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+    box-shadow: 0px 0px 30px rgba(117, 117, 117, 0.363);
+}
+section .count-container div{
+    width: 25%;
+}
+section .count-container h1{
+    font-size: 48px;
+    text-align: center;
+}
+section .count-container p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: -35px;
+}
