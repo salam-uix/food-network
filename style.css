@@ -4,6 +4,7 @@ body{
 }
 .flex{
     display: flex;
+    width: 90%;
 }
 .half-width{
     width: 50%;
@@ -20,13 +21,12 @@ body{
 
 /* ----Top Section---- */
 
-.top-section{
-    
-}
+
 .top-div{
     max-width: 100%;
     margin: auto 10%;
     padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 .top-content{
@@ -54,4 +54,35 @@ p{
 }
 .top-image img{
     height: 500px;
+}
+
+/*-------About me section--------*/
+section.about-me{
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    background-image: url(./images/shapes/7.png);
+}
+section .about-items{
+    width: 90%;
+}
+.about-me .img-div{
+    margin: auto;
+    width: 40%;
+    
+}
+.about-me img{
+    height: 300px;
+    width: auto;
+    margin: auto;
+    padding-left: 150px;
+    
+}
+.about-content{
+    width: 40%;
+    margin: auto;
+    padding-left: 50px;
+}
+.about-me h2{
+    color: darkslategrey;
 }
