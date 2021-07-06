@@ -91,6 +91,7 @@ section .about-items{
 .recipes-section{
     width: 100%;
     margin: auto;
+    padding-top: 35px;
    
 }
 .recipes-section h2{
@@ -162,22 +163,23 @@ section .about-items{
 
 /*-------Counting section------*/
 
-
-section .count-container{
+section.counting{
     display: flex;
     width: 90%;
     margin: 100px auto;
+    justify-content: center;
     box-shadow: 0px 0px 30px rgba(117, 117, 117, 0.363);
 }
-section .count-container div{
+section.counting div{
     width: 25%;
 }
-section .count-container h1{
+section.counting h1{
     font-size: 48px;
     text-align: center;
 }
-section .count-container p{
+section.counting p{
     font-size: 16px;
     text-align: center;
     margin-top: -35px;
+   padding-bottom: 15px;
 }
