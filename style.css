@@ -86,3 +86,35 @@ section .about-items{
 .about-me h2{
     color: darkslategrey;
 }
+
+/*-------Recipies section------*/
+.recipes-section{
+    width: 100%;
+    text-align: center;
+}
+.recipes-section h2{
+    color: darkslategrey;
+}
+.recipes-section p{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+.recipes-section .recipies-container{
+    margin: auto;
+    box-shadow: darkslategrey;
+}
+.recipes-section .size{
+    width: 30%;
+    
+}
+.recipes-section .size h4{
+    text-align: left;
+}
+.recipes-section .size{
+    text-align: left;
+}
+.recipes-section img{
+    height: 150px;
+}
